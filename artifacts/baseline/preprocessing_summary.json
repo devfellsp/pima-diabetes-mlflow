@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "n_total": 768,
+  "n_train": 537,
+  "n_val": 115,
+  "n_test": 116,
+  "train_positive_rate": 0.34823091247672255,
+  "val_positive_rate": 0.34782608695652173,
+  "test_positive_rate": 0.35344827586206895,
+  "zero_as_missing": [
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI"
+  ],
+  "imputation": "median fitted on train only",
+  "scaling": "StandardScaler fitted on train only",
+  "split": "70/15/15 stratified"
+}

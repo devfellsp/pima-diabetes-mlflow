@@ -1,0 +1,35 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache e bytecodes Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# MLflow local
+mlruns/
+mlartifacts/
+mlflow.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Dataset baixado automaticamente pelo pipeline
+data/diabetes.csv
+
+# Binários redundantes gerados em artifacts (mantendo .json e .png demonstrativos)
+artifacts/**/*.pt
+artifacts/**/*.joblib
+
+# Arquivos temporários e de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env

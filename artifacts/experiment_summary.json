@@ -1,0 +1,38 @@
+{
+  "selected_run": "regularizacao_l2",
+  "selected_run_id": "9a8c445b602e4d72bf2f4b44856dae3d",
+  "selection_basis": "highest validation F1; accuracy as tiebreaker",
+  "comparison": {
+    "baseline": {
+      "run_id": "27f23b091ef640319b5485acbfc17148",
+      "val_loss": 1.78541100025177,
+      "val_accuracy": 0.7217391304347827,
+      "val_precision": 0.5869565217391305,
+      "val_recall": 0.675,
+      "val_f1": 0.627906976744186
+    },
+    "lr_menor": {
+      "run_id": "31a62ef357404c1583c30ef0acad29f5",
+      "val_loss": 0.609562337398529,
+      "val_accuracy": 0.7217391304347827,
+      "val_precision": 0.5952380952380952,
+      "val_recall": 0.625,
+      "val_f1": 0.6097560975609756
+    },
+    "regularizacao_l2": {
+      "run_id": "9a8c445b602e4d72bf2f4b44856dae3d",
+      "val_loss": 2.0418758392333984,
+      "val_accuracy": 0.782608695652174,
+      "val_precision": 0.6744186046511628,
+      "val_recall": 0.725,
+      "val_f1": 0.6987951807228916
+    }
+  },
+  "final_test": {
+    "loss": 2.3072128295898438,
+    "accuracy": 0.7327586206896551,
+    "precision": 0.6388888888888888,
+    "recall": 0.5609756097560976,
+    "f1": 0.5974025974025974
+  }
+}
